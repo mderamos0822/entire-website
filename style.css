@@ -11,8 +11,6 @@ body  {
 }
 
 .navbar  {    
-    color: #e5e7eb;
-    font-size: 18px;
     list-style: none;
     display: flex;
     padding: 20px 0px 20px 100px;
@@ -23,7 +21,7 @@ body  {
 .header-logo img {
     width: 84px;
     height: 84px;
-    margin-right: auto;    
+    margin-right: auto; 
 }
 
 
@@ -90,12 +88,13 @@ h1 {
 }
 
 .hero-image img {
-    width: 500px;
+    width: 300px;
     height: 350px;
 }
 
 .content {
     Align-items: center;
+    background-color: white;
 }
 
 .content-info {
@@ -139,24 +138,6 @@ h1 {
     text-align: right;
 }
 
-.container-2  {
-    margin: 32px;
-    padding: 32px;
-    color: white;
-    background-color: #3882f6;
-}
-
-.para-bold {
-    color: #f9faf8;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.para-small  {
-        color: #f9faf8;
-    font-size: 18px;
-}
-
 .sign-up {
     background-color: #3882F6 ;
     margin: 50px 200px;
@@ -188,7 +169,7 @@ h3 {
     margin: 30px 0px 0px 50px;
 }
 
-.signs-button button {
+.sign-button button {
     color: #fff;
     font-family: 'Roboto', arial;
     border-color: #fff;
@@ -202,4 +183,5 @@ h3 {
     background-color: #1F2937;
     color: #fff;
     font-family: 'Roboto', arial;
+
 }
